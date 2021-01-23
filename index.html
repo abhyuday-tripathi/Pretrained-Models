@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="App.js"></script>
+    <title>Pretrained Models</title>
+  </head>
+  <body>
+    <div class="header col-xs-12">
+      <h1>
+        Image Identification
+        <img src="logo.gif" />
+      </h1>
+    </div>
+    <div class="flex">
+      <div class="webcamDiv col-xs-12">
+        <label>Webcam :--</label>
+        <div id="webcamContainer"></div>
+        <button class="btn btn-outline-info" onclick="takeSnapshot()">
+          Capture Image
+        </button>
+      </div>
+      <div class="imageContainer">
+        <label>Image :--</label>
+        <div id="outputImage"></div>
+        <button class="btn btn-outline-warning" onclick="check()">
+          Identify Image
+        </button>
+      </div>
+    </div>
+    <div class="output col-xs-12 col-sm-6">
+      <h4>
+        <img src="blub.gif" />
+        <span id="object"></span>
+      </h4>
+    </div>
+    <div class="footer">Developed by :-- Abhyuday Tripathi</div>
+  </body>
+</html>

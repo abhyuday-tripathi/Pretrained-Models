@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.header {
+  color: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.header h1 {
+  width: 50%;
+}
+
+.header h1 img {
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.output .output h4 img {
+  width: 85px;
+}
+
+.webcamDiv {
+  width: 500px;
+  height: 500px;
+  background: -webkit-linear-gradient(30deg, #68a7ff, #00d2ff);
+  background: linear-gradient(to right, #2162be, #00d2ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.webcamDiv #webcamContainer {
+  border: 1px dashed white;
+  width: 200px;
+  height: 200px;
+}
+
+.imageContainer {
+  width: 500px;
+  height: 500px;
+  background: -webkit-linear-gradient(30deg, #68a7ff, #00d2ff);
+  background: linear-gradient(to right, #2162be, #00d2ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.imageContainer #outputImage {
+  border: 1px dashed white;
+  width: 200px;
+  height: 200px;
+}
+
+.flex {
+  display: flex;
+  margin-top: 100px;
+}
+
+label {
+  font-size: 18px;
+  font-family: 'Source Code Pro';
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn:hover {
+  color: white !important;
+}
+
+.output {
+  background: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.output h4 img {
+  width: 200px;
+}
+
+.footer {
+  background: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 8vh;
+  font-family: 'Fira Code';
+}
